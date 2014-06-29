@@ -27,11 +27,13 @@ body {
 h1 {
 	font-size: 80px;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px #333;
 }
 
 h2 {
-	font-size: 60px;
+	font-size: 50px;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px #333;
 }
 
 .button {
