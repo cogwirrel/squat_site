@@ -1,12 +1,117 @@
 body {
-	background-color: #0e53a7;
+	margin:0;
 }
 
-#squat_logo {
-	margin:auto;
-	position: absolute;
-	top:0;
-	left:0;
-	bottom:0;
-	right:0;
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+}
+
+.hsContent {
+    max-width: 450px;
+    
+
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    padding: 0 8%;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.downbutton {
+    color:#ffffff;
+}
+
+h3 {
+	font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forcedown {
+	margin-top: 15%;
+}
+
+.screenshot_right {
+	height: 700px;
+	float: right;
+	margin-top: -15%;
+	position: relative;
+}
+
+.screenshot_left {
+	height: 700px;
+	float: left;
+	margin-top: -15%;
+	position: relative;
+}
+
+.right_text {
+	margin-left:30%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.left_text {
+	margin-right:30%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.centre_text {
+	text-align:center;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.googleplay {
+	width: 300px;
+}
+
+#slide-1 .bcg {
+	background: url('../img/1080pbanner.png');
+	background-color: rgb(14,83,167);
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+
+#slide-2 .bcg {
+    height: 1000px;
+    text-align: center
+}
+
+#slide-3 .bcg {
+    height: 1000px;
+    text-align: center
+}
+
+#slide-4 .bcg {
+    height: 1000px;
+    text-align: center
+}
+#slide-5 .bcg {
+    height: 1000px;
+    text-align: center
 }
