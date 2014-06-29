@@ -61,6 +61,14 @@ h3 {
 	position: relative;
 }
 
+.youtubevid {
+	height: 700px;
+	width: 360px;
+	float: left;
+	margin-top: -15%;
+	position: relative;
+}
+
 .right_text {
 	margin-left:30%;
 	vertical-align: middle;
@@ -97,21 +105,7 @@ h3 {
 	height: 1000px;
 }
 
-#slide-2 .bcg {
-    height: 1000px;
-    text-align: center
-}
-
-#slide-3 .bcg {
-    height: 1000px;
-    text-align: center
-}
-
-#slide-4 .bcg {
-    height: 1000px;
-    text-align: center
-}
-#slide-5 .bcg {
+.bcg {
     height: 1000px;
     text-align: center
 }
