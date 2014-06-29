@@ -6,7 +6,7 @@ body {
     display: table;
     table-layout: fixed;
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: hidden;
     position: relative;
     opacity: 1;
@@ -34,8 +34,9 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-.downbutton {
+.button {
     color:#ffffff;
+    font-size: 45px;
 }
 
 h3 {
